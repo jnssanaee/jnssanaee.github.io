@@ -6,3 +6,17 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+h1{font-size: 1.0em;}
+.page__content li{font-size: 0.8em; }
+.page__content > ul > li {margin-bottom: 1.2em;}
+.page__title+.page__meta,
+.page__inner-wrap > header
+{display: none}
+
+@media (min-width: 80em) {
+  .page {
+    padding-right: 0
+  }
+}
+.author__avatar img{border-radius: 0;border:none}
