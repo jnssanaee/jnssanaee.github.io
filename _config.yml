@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "lkt"
-  avatar           : "/assets/images/profile.jpg"
+  avatar           : "/assets/images/profile.png"
   bio              : "front-end"
   location         : "seoul"
   email            :
